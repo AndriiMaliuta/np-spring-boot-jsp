@@ -23,7 +23,6 @@ public class HelloController {
     public String getHello(Model model) {
 
 //        Object[] urls = {"some url1", "some url2"};
-
 //        model.addAttribute("name", messageSource.getMessage("text", urls, LocaleContextHolder.getLocale()));
 
         model.addAttribute(MyUtils.getMessage("text", "url1", "url2"));
