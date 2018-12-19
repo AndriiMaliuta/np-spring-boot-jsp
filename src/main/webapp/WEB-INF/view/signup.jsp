@@ -7,7 +7,7 @@
 
 <div class="hello-main" style="padding: 10px;margin: 10px">
 
-    <form:form modelAttribute="user">
+    <form:form>
 
         <form:errors cssClass="error" />
 

@@ -18,6 +18,8 @@ public class UserCommand {
     @Size(min = 8, max = 30, message = "{emailSizeError}")
     private String password;
 
+
+
     public String getEmail() {
         return email;
     }

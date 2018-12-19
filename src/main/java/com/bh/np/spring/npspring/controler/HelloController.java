@@ -18,7 +18,6 @@ public class HelloController {
 //    @Autowired
 //    private MessageSource messageSource;
 
-
     @RequestMapping("/hello")
     public String getHello(Model model) {
 
