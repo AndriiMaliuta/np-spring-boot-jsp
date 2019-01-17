@@ -3,17 +3,19 @@
 <%@taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 
+
 <%@ include file="common/header.jsp"%>
 
 <div class="hello-main" style="padding: 10px;margin: 10px">
 
-    <form:form>
+    <form:form method="post" action="/signup" modelAttribute="greeting">
 
         <form:label path="id">ID</form:label>
-        <form:input path="id" name="id" />
+        <form:input path="id" />
 
         <form:label path="content">Content</form:label>
-        <form:input path="content" name="content" />
+        <form:input path="content" />
+
     </form:form>
 
 </div>

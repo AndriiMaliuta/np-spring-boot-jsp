@@ -33,6 +33,9 @@
 
     </form:form>
 
+    ${email}
+    ${name}
+
 </div>
 
 <%@include file="common/footer.jsp"%>
